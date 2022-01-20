@@ -1,0 +1,23 @@
+[
+	{
+		"model": "holidays.countrycodes", 
+		"pk": "AU", 
+		"fields": {
+			"countryName": "Australia"
+		}
+	},
+	{
+		"model": "holidays.countrycodes", 
+		"pk": "FR", 
+		"fields": {
+			"countryName": "France"
+		}
+	},
+	{
+		"model": "holidays.countrycodes", 
+		"pk": "DE", 
+		"fields": {
+			"countryName": "Germany"
+		}
+	}
+]
