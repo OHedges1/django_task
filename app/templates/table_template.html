@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>A Basic HTML5 Template</title>
+	</head>
+
+	<body>
+		<h2>{{ country_name }}</h2>
+		<table>
+			<tr>
+				<th>Local Name</th>
+				<th>Name</th>
+				<th>Date</th>
+			</tr>
+			{% for record in holidays %}
+			<tr>
+				<td>{{ record.localName }}</td>
+				<td>{{ record.name }}</td>
+				<td>{{ record.date }}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>
+
