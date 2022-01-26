@@ -1,4 +1,6 @@
-# q_interview
+# django task
+
+Collects and displays the public holidays for Germany (DE), Australia (AU) and France (FR).
 
 Requires:
 
